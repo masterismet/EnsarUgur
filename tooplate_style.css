@@ -1,9 +1,30 @@
-﻿body {
+﻿@font-face {
+    font-family:'CaviarDreams'; /*a name to be used later*/
+    src:url('fonts/costumFonts/CaviarDreams.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family:'CaviarDreams_Bold'; /*a name to be used later*/
+    src:url('fonts/costumFonts/CaviarDreams_Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family:'CaviarDreams_BoldItalic'; /*a name to be used later*/
+    src:url('fonts/costumFonts/CaviarDreams_BoldItalic.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family:'CaviarDreams_Italic'; /*a name to be used later*/
+    src:url('fonts/costumFonts/CaviarDreams_Italic.ttf'); /*URL to font*/
+}
+
+
+
+body {
 	margin: 0;
 	padding: 0;
 	color:#b8cfe7; /*  #9ac1e3;
-*/	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 13px;
+*/	font-family:CaviarDreams_Bold; /*Tahoma, Geneva, sans-serif;
+*/	font-size: 13px;
 	line-height: 1.7em; 
 	background-color:#081e30;
 	background-image: url(images/tooplate_body.jpg);
@@ -19,7 +40,7 @@ a, a:link, a:visited {
 }
 
 a:hover { 
-	text-decoration: none; 
+	text-decoration: none;	
 }
 
 a.more { 
@@ -174,6 +195,10 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	background:url('images/250x250.png') no-repeat top left; 
 }
 
+#social_icons{
+	float: right;
+	display: block; 
+}
 /* menu */
 
 #tooplate_menu {    
@@ -506,11 +531,68 @@ h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
 	background: none; 
 }
 
+#add { 
+	margin: auto; 
+	padding: 0; 
+	width: 100%; 
+	display: table;
+}
+
+#add .add_box { 
+  /*  float:left;
+	clear: both; 
+*/	
+	display: table-cell;
+	margin-bottom: 30px; 
+	padding-bottom: 30px; 
+	background: url(images/tooplate_divider.jpg) bottom repeat-x; 
+}
+
+#add .add_box img { 
+	float: left; 
+	width: 200px; 
+	height: 200px; 
+	border: 1px solid #ccc; 
+	padding: 9px; 
+	margin-right: 20px; 
+	background: #fff; 
+}
+
+#add .input_field { 
+	width: 200px; 
+	color: #fff; 
+	padding: 5px; 
+	border: 1px solid #102a61;  
+	background: #021321; 
+	font-family: Verdana,Geneva,sans-serif;
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+
+
+
+
 #tooplate_sidebar {
 	float: left;
 	width: 278px;
 	border: 1px solid #000;
 	background: #081e30
+}
+
+
+#faq h3 { 
+	line-height: 30px; 
+}
+
+#faq p { 
+	margin-bottom: 30px; 
+}
+
+#faq .last_box { 
+	margin-bottom: 0; 
+	padding-bottom: 0; 
+	background: none; 
 }
 
 .sidbar_box {    

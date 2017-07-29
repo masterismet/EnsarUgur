@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ensar|Uğur</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/spectrum.js"></script>
+<link href="css/spectrum.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="tooplate_wrapper">
+	<div id="tooplate_header">
+        <div id="site_title"><h1><a href="#">Logolar Buraya</a></h1></div>
+		<div id="social_icons">		
+		 <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+		 <a href="#"> <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+		 <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+		 <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+		 <a href="#"><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></a>
+		 <a href="#"><i class="fa fa-tablet fa-3x" aria-hidden="true"></i></a>
+		 <a href="#"><i class="fa fa-desktop fa-4x" aria-hidden="true"></i></a>
+		</div>
+    </div> <!-- end of forever header -->
+    
+    <div id="tooplate_menu">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-shopping-basket fa-2x"></i>&nbsp;Gardrop</a></li>
+            <li><a href="blog.html"><i class="fa fa-bars fa-2x"></i>&nbsp;Blog</a></li>
+            <li><a href="faq.html"><i class="fa fa-phone fa-2x"></i>&nbsp;S.S.S.</a></li>
+            <li><a href="about.html"><i class="fa fa-user fa-2x"></i>&nbsp;Hakkımızda</a></li>
+	        <li><a href="contact.html"><i class="fa fa-envelope fa-2x"></i>&nbsp;İletişim</a></li>
+	    </ul>    	
+    </div> <!-- end of tooplate_menu -->   
+	
+	<div id="tooplate_main"> 
+           	 <div id="contact_form">
+				<div id="add">				
+                   <div class="add_box">
+                    <h3>Kıyafet seç</h3>
+                   <figure>
+                     <img src="images/kıyafetdolabi.jpg" /><br><br><br>
+                     <figcaption><input type="file" id="author" name="author" class="input_field" /></figcaption>
+                   </figure>
+                   </div>
+				   <div class="add_box">
+				    <h3>Kıyafet Türü</h3>				    
+                   <figure>
+                      <ul class="input_field" style="list-style-type: none; width:200px;">
+					    <li><input type="radio" value="ss"/>Gömlek</li>
+						<li><input type="radio" value="ss"/>T-Shirt</li>
+						<li><input type="radio" value="ss"/>Sweetshirt</li>  
+                        <li><input type="radio" value="ss"/>Kazak</li>
+						<li><input type="radio" value="ss"/>Pantlon</li>
+						<li><input type="radio" value="ss"/>Etek</li>  
+                        <li><input type="radio" value="ss"/>Şort</li>
+						<li><input type="radio" value="ss"/>Ayakkabı</li>
+						<li><input type="radio" value="ss"/>Elbise</li> 
+                        <li><input type="radio" value="ss"/>Çanta</li>												
+	                   </ul>
+                    
+                   </figure>					  
+					</div>
+                    <div class="add_box">
+				    <h3>Kıyafet Rengi</h3>
+                   <figure>
+                    <input type='text' id="flat" /><br/>
+                     <figcaption><input  type="text" class="input_field" id="flat" /></figcaption>
+                   </figure>					  
+					</div>					
+                         
+                     <div class="cleaner"></div> 
+                     
+                    </div>  
+				
+                 <div  style=" margin-left:300px;"><img style="margin: auto auto;" src="images/elbiseekle.png" />  </div> 
+
+            </div>  
+        
+        <div class="cleaner"></div>
+	</div> <!-- end of main -->
+    
+    <div id="tooplate_footer_wrapper">    
+        <div id="tooplate_copyright">		
+            Copyright © 2017 <a href="#">ensar-ugur</a>
+			
+        </div>
+	</div>
+</div> <!-- end of wrapper -->
+
+</body>
+<script>
+$("#flat").spectrum({
+    flat: true,
+    showInput: true
+});
+$("#flatClearable").spectrum({
+    flat: true,
+    showInput: true,
+    allowEmpty:true
+});
+</script>
+</html>
